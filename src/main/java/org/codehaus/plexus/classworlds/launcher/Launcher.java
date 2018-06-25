@@ -355,13 +355,13 @@ public class Launcher
         {
             int exitCode = mainWithExitCode( args );
 
-            System.exit( exitCode );
+//            System.exit( exitCode );
         }
         catch ( Exception e )
         {
             e.printStackTrace();
 
-            System.exit( 100 );
+//            System.exit( 100 );
         }
     }
 
